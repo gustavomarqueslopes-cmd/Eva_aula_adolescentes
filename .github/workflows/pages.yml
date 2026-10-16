@@ -1,24 +1,52 @@
-name: Publicar prévia EVA
+name: Publicar EVA no GitHub Pages
+
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
-  pages: write
-  id-token: write
+
 concurrency:
   group: eva-pages
   cancel-in-progress: true
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    steps:
+      - name: Obter codigo
+        uses: actions/checkout@v4
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Instalar dependencias
+        run: npm install --no-audit --no-fund
+      - name: Validar motor narrativo
+        run: npm run test:engine
+      - name: Compilar EVA para GitHub Pages
+        run: npm run build
+        env:
+          GITHUB_PAGES: 'true'
+      - name: Enviar artefato estatico
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deployment
+      - name: Verificar configuracao GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Publicar sitio
+        id: deployment
         uses: actions/deploy-pages@v4
