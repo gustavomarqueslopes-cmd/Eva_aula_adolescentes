@@ -1,37 +1,29 @@
 # EVA — O Mundo Que Você Alimenta
 
-Experiência interativa para adolescentes do Ministério Conexão: uma personagem digital fictícia muda de acordo com decisões coletivas. **A EVA não é uma IA generativa nem possui consciência**; os resultados seguem roteiro e regras definidos.
+**Experiência interativa do Ministério Conexão para adolescentes.** A EVA é personagem digital fictícia com seis capítulos e dezoito consequências roteirizadas; não é IA generativa.
 
-## Prévia pública (temporária)
+## Aplicações
+- `/#/telao`: telão cinematográfico;
+- `/#/controle`: painel do ministrante;
+- `/#/participar`: votação pelo celular;
+- `/#/inicio`: abertura.
 
-**Link de acesso provisório:** https://jade-stone-6184.hosted.pageshare.ai/
+## Status
+O projeto contém React + TypeScript + Vite, motor narrativo e BFF Cloudflare Worker + D1. **Sem configuração do BFF, a interface opera em modo ensaio local e não consolida votos de aparelhos diferentes.** Conferir `ROADMAP_RELEASE.md` antes de promover ao vivo.
 
-- Publicação estática confirmada como ativa e pública pelo provedor PageShare em 15/10/2026.
-- **Validade desta hospedagem: até 23/10/2026 às 00:21 UTC** (22/10 à noite, Brasília).
-- O link da Vercel `https://eva-aula-adolescentes.vercel.app/` não foi validado para acesso público; verificar antes de divulgá-lo.
-- O GitHub Pages ainda requer ativação em **Settings → Pages**.
-- Esta é apenas a prévia de ensaio, sem sincronização de votos entre celulares.
+## Build
+```sh
+npm install
+npm run build
+npm run test:engine
+```
 
-## Estado da primeira publicação
+## Produção real
+1. Provisionar D1 exclusivo `eva-aula`, atribuir o ID real em `worker/wrangler.toml`.
+2. Executar `worker/migrations/0001_init.sql` no D1 remoto.
+3. Configurar no Worker os secrets distintos `ADMIN_KEY` e `VOTER_PEPPER`.
+4. Definir `CORS_ORIGIN` como a origem HTTPS exata do site publicado.
+5. Publicar Worker e conferir `GET /api/health`; no frontend definir `VITE_API_URL` no build.
+6. Testar votação multiaparelho e os seis capítulos antes do evento.
 
-- `index.html`: **prévia demonstrativa interativa e responsiva**, com telão, estúdio e tela de participação.
-- Este site está **em modo de ensaio local**, não em votação multiaparelho. Votos de celulares diferentes não são sincronizados nesta publicação.
-- O próximo marco é integrar a aplicação React/TypeScript com Cloudflare Worker + D1 para votação centralizada.
-- Sem cadastro, nome, telefone ou identificação pessoal dos adolescentes.
-
-## Experimentar
-
-Abra o site no navegador. No **Estúdio**, inicie uma votação; em **Participar**, registre a decisão; retorne ao Estúdio para revelar o resultado e avançar nas consequências. A prévia pode simular votos para ensaio.
-
-## Publicação
-
-A prévia provisória pública está disponível no PageShare: https://jade-stone-6184.hosted.pageshare.ai/ (válida até 23/10/2026 00:21 UTC). O GitHub Pages **não está ativado** no repositório; por isso o workflow `.github/workflows/pages.yml` ficou em execução manual para evitar falhas automáticas a cada commit. A ativação futura exige a configuração em **Settings → Pages → Build and deployment → GitHub Actions**. Não divulgue esta prévia como votação ao vivo antes de configurar e testar a API real.
-
-## Próximas etapas
-
-1. Publicar e validar frontend React + TS.
-2. Implantar BFF Cloudflare Worker + banco D1 com chave administrativa e prevenção simples de voto duplicado.
-3. Conectar frontend ao BFF, realizar homologação com múltiplos celulares e ensaio de falha de rede.
-4. Revisão de narrativa e privacidade com a liderança do ministério.
-
-**Atenção:** GitHub Pages serve somente arquivos estáticos; não hospeda banco de dados nem protege secrets de backend.
+Segredos nunca entram no GitHub, nem em variáveis `VITE_`. O workflow de CI faz build e testes do motor em cada push. GitHub Pages não está ativado; a publicação do frontend pode ser feita na Vercel.

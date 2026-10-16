@@ -1,0 +1,13 @@
+name = "eva-aula-api"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# Executar `wrangler d1 create eva-aula` e colocar aqui o ID real.
+[[d1_databases]]
+binding = "DB"
+database_name = "eva-aula"
+database_id = "COLOQUE_AQUI_O_D1_DATABASE_ID"
+
+[vars]
+# Trocar pelo endereço real publicado do GitHub Pages.
+CORS_ORIGIN = "https://gustavomarqueslopes-cmd.github.io"

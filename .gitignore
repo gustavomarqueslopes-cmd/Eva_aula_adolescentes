@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.dev.vars
+.env.local
+.env.*.local
+.wrangler/
+.DS_Store
+
+.eva-engine-test/
+*.log
