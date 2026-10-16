@@ -2,11 +2,15 @@
 
 Experiência interativa para adolescentes do Ministério Conexão: uma personagem digital fictícia muda de acordo com decisões coletivas. **A EVA não é uma IA generativa nem possui consciência**; os resultados seguem roteiro e regras definidos.
 
-## Site publicado
+## Prévia pública (temporária)
 
-**Prévia pública da EVA:** https://eva-aula-adolescentes.vercel.app/
+**Link de acesso provisório:** https://jade-stone-6184.hosted.pageshare.ai/
 
-Publicado na Vercel como site HTML estático. A implantação de produção foi marcada READY em 15/10/2026, com proteção de login desativada. A publicação atual é manual: atualizações no GitHub não disparam automaticamente uma nova implantação na Vercel.
+- Publicação estática confirmada como ativa e pública pelo provedor PageShare em 15/10/2026.
+- **Validade desta hospedagem: até 23/10/2026 às 00:21 UTC** (22/10 à noite, Brasília).
+- O link da Vercel `https://eva-aula-adolescentes.vercel.app/` não foi validado para acesso público; verificar antes de divulgá-lo.
+- O GitHub Pages ainda requer ativação em **Settings → Pages**.
+- Esta é apenas a prévia de ensaio, sem sincronização de votos entre celulares.
 
 ## Estado da primeira publicação
 
@@ -21,7 +25,7 @@ Abra o site no navegador. No **Estúdio**, inicie uma votação; em **Participar
 
 ## Publicação
 
-A prévia pública está disponível na Vercel: https://eva-aula-adolescentes.vercel.app/ . O GitHub Pages **não está ativado** no repositório; por isso o workflow `.github/workflows/pages.yml` ficou em execução manual para evitar falhas automáticas a cada commit. A ativação futura exige a configuração em **Settings → Pages → Build and deployment → GitHub Actions**. Não divulgue esta prévia como votação ao vivo antes de configurar e testar a API real.
+A prévia provisória pública está disponível no PageShare: https://jade-stone-6184.hosted.pageshare.ai/ (válida até 23/10/2026 00:21 UTC). O GitHub Pages **não está ativado** no repositório; por isso o workflow `.github/workflows/pages.yml` ficou em execução manual para evitar falhas automáticas a cada commit. A ativação futura exige a configuração em **Settings → Pages → Build and deployment → GitHub Actions**. Não divulgue esta prévia como votação ao vivo antes de configurar e testar a API real.
 
 ## Próximas etapas
 
