@@ -1,0 +1,197 @@
+[
+  {
+    "time": "00–03",
+    "label": "ABERTURA",
+    "title": "Quem está no <span class=\"accent\">controle?</span>",
+    "lead": "Uma história. Quatro perspectivas. Decisões que mudam tudo.",
+    "img": 0,
+    "kind": "welcome",
+    "lines": [
+      "Bem-vindos à EVA. Hoje não é uma palestra para ficar sentado ouvindo. Vocês vão investigar uma história e tomar decisões.",
+      "Não é uma corrida para ver quem responde primeiro. É uma missão para descobrir o que é verdadeiro."
+    ],
+    "action": "OUÇAM A MISSÃO"
+  },
+  {
+    "time": "03–08",
+    "label": "O CASO SETE",
+    "title": "Conheçam o <span class=\"accent\">Sete.</span>",
+    "lead": "16 anos. Um projeto coletivo. Uma oportunidade enorme.",
+    "img": 1,
+    "side": "right",
+    "lines": [
+      "Sete tem 16 anos e ajudou a criar o Projeto Ponte: oficinas e oportunidades para adolescentes.",
+      "O Projeto Ponte foi selecionado para a Mostra Ideias que Transformam. Parece uma ótima notícia.",
+      "Só que existem quatro informações que não combinam. E vocês vão descobrir quais são."
+    ],
+    "action": "PROJETO PONTE / MOSTRA"
+  },
+  {
+    "time": "08–13",
+    "label": "QUATRO NÚCLEOS",
+    "title": "A verdade está <span class=\"accent\">dividida.</span>",
+    "lead": "Cada equipe recebeu uma parte da história. Ninguém sabe tudo.",
+    "img": 0,
+    "lines": [
+      "Equipe A: Vozes. Equipe B: Limites. Equipe C: Verdade. Equipe D: Caminhos.",
+      "Cada núcleo tem seus próprios arquivos. A missão não é acusar ninguém. A missão é reunir evidências.",
+      "Regra número um: evidência primeiro, opinião depois. Esperem o meu sinal para abrir o envelope."
+    ],
+    "action": "PREPAREM A1 • B1 • C1 • D1"
+  },
+  {
+    "time": "13–30",
+    "label": "RODADA 01",
+    "title": "A investigação <span class=\"accent\">começa.</span>",
+    "lead": "A primeira explicação nem sempre é a história inteira.",
+    "img": 0,
+    "lines": [
+      "Rodada um liberada. Abram os envelopes A1, B1, C1 e D1.",
+      "Leiam com calma. Confiram quem falou, para quem, sobre o quê e em qual momento.",
+      "Quando descobrirem o código do seu envelope, chamem o professor para validar. Guardem as pistas!"
+    ],
+    "action": "ABRAM OS ENVELOPES DA RODADA 1"
+  },
+  {
+    "time": "25–30",
+    "label": "PRIMEIRA ANÁLISE",
+    "title": "O que vocês podem <span class=\"accent\">provar?</span>",
+    "lead": "Ter uma hipótese não é a mesma coisa que ter uma evidência.",
+    "img": 0,
+    "lines": [
+      "Qual foi a frase que mais chamou a atenção? Ela prova exatamente o que parece provar?",
+      "Se vocês não têm certeza, digam que não têm certeza. Uma boa investigação também sabe dizer: ainda não sei."
+    ],
+    "action": "CONFIRAM AS EVIDÊNCIAS"
+  },
+  {
+    "time": "30–43",
+    "label": "RODADA 02",
+    "title": "O print não contou <span class=\"accent\">tudo.</span>",
+    "lead": "Contexto muda interpretação. Um rascunho não é uma autorização.",
+    "img": 1,
+    "side": "right",
+    "lines": [
+      "A EVA encontrou novos arquivos. Agora vocês podem conversar entre os núcleos.",
+      "Abram A2, B2, C2 e D2. Usem as novas pistas para revisar o que achavam que já sabiam.",
+      "Lembrem: ausência de resposta não significa autorização."
+    ],
+    "action": "ABRAM A2 • B2 • C2 • D2"
+  },
+  {
+    "time": "43–48",
+    "label": "ALERTA / REVELAÇÃO",
+    "title": "Uma mensagem <span class=\"accent\">recuperada.</span>",
+    "lead": "A verdade ficou maior do que o print.",
+    "img": 1,
+    "side": "right",
+    "kind": "alert",
+    "lines": [
+      "Atenção, equipes. Um novo registro foi recuperado.",
+      "Lia autorizou o ensaio com sua arte, mas não autorizou divulgar sua foto nem seu perfil pessoal.",
+      "Ela queria ter seu trabalho reconhecido sem ficar exposta. Sete não é um vilão: uma decisão foi tomada sem ouvir tudo.",
+      "O que vocês precisam corrigir agora? E o que ainda precisam confirmar?"
+    ],
+    "action": "NOVA INFORMAÇÃO CONFIRMADA"
+  },
+  {
+    "time": "48–58",
+    "label": "MARCOS 10:17–27",
+    "title": "E quando a escolha <span class=\"accent\">custa?</span>",
+    "lead": "Abram a Bíblia em Marcos 10:17–27.",
+    "img": 2,
+    "kind": "bible",
+    "lines": [
+      "Um homem chega até Jesus perguntando sobre a vida eterna. Ele conhece os mandamentos.",
+      "Jesus olha para ele e o ama, mas confronta aquilo que ele não consegue deixar.",
+      "O texto fala literalmente de riquezas e do chamado a seguir Jesus.",
+      "A conclusão aponta para a graça: o que é impossível aos homens é possível a Deus."
+    ],
+    "action": "LEITURA BÍBLICA / PROFESSOR CONDUZ"
+  },
+  {
+    "time": "58–63",
+    "label": "REFLEXÃO",
+    "title": "O que segura o <span class=\"accent\">coração?</span>",
+    "lead": "Quatro perguntas. Nenhuma exige expor a vida pessoal.",
+    "img": 2,
+    "kind": "bible",
+    "lines": [
+      "1. O que o jovem perguntou a Jesus?",
+      "2. O que ele não conseguia deixar?",
+      "3. Na história de Sete, que medo pode influenciar as escolhas?",
+      "4. Por que Marcos 10:27 nos lembra de depender de Deus, e não da nossa perfeição?"
+    ],
+    "action": "CONVERSA EM SALA / SEM EXPOSIÇÃO"
+  },
+  {
+    "time": "63–80",
+    "label": "RODADA 03",
+    "title": "Agora é hora de <span class=\"accent\">agir.</span>",
+    "lead": "Enxergar a falha é só metade da missão.",
+    "img": 0,
+    "lines": [
+      "Rodada três liberada. Abram A3, B3, C3 e D3.",
+      "Cada equipe deve propor uma resposta que respeite as pessoas, a verdade e os prazos.",
+      "Não basta escolher uma frase bonita. Vocês precisam defender uma solução com as provas que têm."
+    ],
+    "action": "ABRAM A3 • B3 • C3 • D3"
+  },
+  {
+    "time": "80–90",
+    "label": "PROTOCOLO PONTE",
+    "title": "As quatro partes <span class=\"accent\">se conectam.</span>",
+    "lead": "Uma decisão coletiva precisa de evidências de todos.",
+    "img": 1,
+    "side": "right",
+    "lines": [
+      "O envelope FINAL está liberado. Agora juntem as provas das quatro equipes.",
+      "A chave final combina quatro números. Um de cada núcleo, na ordem A, B, C e D.",
+      "Depois da chave, justifiquem qual caminho protege as pessoas, corrige os fatos e permite continuar com responsabilidade."
+    ],
+    "action": "ABRAM O ENVELOPE FINAL"
+  },
+  {
+    "time": "88–92",
+    "label": "DECISÃO COLETIVA",
+    "title": "Qual caminho <span class=\"accent\">vocês escolhem?</span>",
+    "lead": "Conveniência, exposição ou correção responsável?",
+    "img": 1,
+    "side": "right",
+    "lines": [
+      "CAMINHO X: manter tudo como está e aproveitar a oportunidade.",
+      "CAMINHO Y: expor o conflito publicamente e abandonar a proposta.",
+      "CAMINHO Z: pausar a peça, conversar, corrigir o registro e preparar um plano alternativo.",
+      "Escolham. E, mais importante, digam quais evidências sustentam sua decisão."
+    ],
+    "action": "ARGUMENTEM ANTES DE DECIDIR"
+  },
+  {
+    "time": "90–95",
+    "label": "DESFECHO",
+    "title": "Fazer o certo não <span class=\"accent\">garante aplausos.</span>",
+    "lead": "O que a equipe escolhe controlar — e o que ela não controla?",
+    "img": 2,
+    "kind": "ends",
+    "lines": [
+      "A equipe decidiu agir com responsabilidade. Mas nem toda decisão correta recebe o resultado esperado.",
+      "O desfecho será apresentado pelo professor. O valor de uma escolha não depende somente de um prêmio."
+    ],
+    "action": "AGUARDANDO A DECISÃO DO PROFESSOR"
+  },
+  {
+    "time": "95–100",
+    "label": "ENCERRAMENTO",
+    "title": "E você, quem deixa <span class=\"accent\">decidir?</span>",
+    "lead": "A história de Sete termina aqui. As suas escolhas continuam.",
+    "img": 2,
+    "kind": "bible",
+    "lines": [
+      "Você pode perder uma oportunidade e ainda escolher o que é verdadeiro.",
+      "Você não controla tudo que acontece depois. Mas pode agir com verdade, amor e coragem.",
+      "Marcos 10:27 nos lembra que nossa esperança está em Deus.",
+      "O que hoje tem mais influência nas suas decisões? Não precisa responder em voz alta."
+    ],
+    "action": "REFLEXÃO FINAL / ORAÇÃO"
+  }
+]
