@@ -3,34 +3,40 @@
     "time": "00–03",
     "label": "ABERTURA",
     "title": "Quem está no <span class=\"accent\">controle?</span>",
-    "lead": "Uma história. Quatro perspectivas. Decisões que mudam tudo.",
+    "lead": "Um projeto com propósito. Quatro pessoas. Uma decisão sob pressão.",
     "img": 0,
     "kind": "welcome",
     "lines": [
-      "Bem-vindos à EVA. Hoje não é uma palestra para ficar sentado ouvindo. Vocês vão investigar uma história e tomar decisões.",
-      "Não é uma corrida para ver quem responde primeiro. É uma missão para descobrir o que é verdadeiro."
+      "Hoje vocês vão entrar numa história fictícia que poderia acontecer com qualquer grupo de amigos. Não há um vilão pronto nem uma resposta óbvia.",
+      "Antes de abrir o primeiro envelope, conheçam as pessoas, o propósito e a oportunidade que colocaram o Projeto Ponte à prova."
     ],
     "action": "OUÇAM A MISSÃO"
   },
   {
     "time": "03–08",
-    "label": "O CASO SETE",
-    "title": "Conheçam o <span class=\"accent\">Sete.</span>",
-    "lead": "16 anos. Um projeto coletivo. Uma oportunidade enorme.",
+    "label": "O PROJETO PONTE",
+    "title": "<span class=\"accent\">PROJETO PONTE.</span>",
+    "lead": "Uma ideia nasceu para aproximar talentos e oportunidades.",
     "img": 1,
     "side": "right",
     "lines": [
-      "Sete tem 16 anos e ajudou a criar o Projeto Ponte: oficinas e oportunidades para adolescentes.",
-      "O Projeto Ponte foi selecionado para a Mostra Ideias que Transformam. Parece uma ótima notícia.",
-      "Só que existem quatro informações que não combinam. E vocês vão descobrir quais são."
+      "Sete tem 16 anos. Ele é o tipo de pessoa que reúne os amigos, organiza ideias e acredita que os jovens podem transformar o lugar onde vivem.",
+      "A inquietação começou com uma pergunta simples: quantos adolescentes têm algo a ensinar ou aprender, mas não encontram um espaço para começar?",
+      "Foi assim que nasceu o Projeto Ponte: encontros e oficinas para conectar jovens, compartilhar habilidades e criar oportunidades. A ideia não era formar uma estrela, mas abrir caminhos.",
+      "Sete tomou a frente da organização e se tornou a pessoa que apresentava a proposta. Lia cuidou da identidade visual; Nando organizou as oficinas e um vídeo de ensaio; Bia mobilizou outros adolescentes.",
+      "Antes de chegar a um palco, a equipe reuniu ideias, trocou mensagens, testou uma apresentação e preparou peças de divulgação. Cada pessoa viu uma parte diferente do trabalho.",
+      "Então veio a notícia: o Projeto Ponte foi selecionado para a Mostra Ideias que Transformam. Uma chance real de apresentar a proposta para outras pessoas.",
+      "Agora há expectativa, pouco tempo para revisar tudo e muita gente torcendo. Sete quer aproveitar a oportunidade, e os quatro integrantes têm motivos para cuidar do projeto.",
+      "É aqui que a investigação começa. O que parece estar combinado? O que foi realmente confirmado? Vocês receberão registros diferentes. Sua missão é entender antes de julgar."
     ],
-    "action": "PROJETO PONTE / MOSTRA"
+    "action": "APRESENTE A HISTÓRIA • AINDA NÃO ABRA OS ENVELOPES",
+    "kind": "project"
   },
   {
     "time": "08–13",
     "label": "QUATRO NÚCLEOS",
     "title": "A verdade está <span class=\"accent\">dividida.</span>",
-    "lead": "Cada equipe recebeu uma parte da história. Ninguém sabe tudo.",
+    "lead": "O mesmo acontecimento visto por pessoas com informações diferentes.",
     "img": 0,
     "lines": [
       "Equipe A: Vozes. Equipe B: Limites. Equipe C: Verdade. Equipe D: Caminhos.",
@@ -102,10 +108,12 @@
     "img": 2,
     "kind": "bible",
     "lines": [
-      "Um homem chega até Jesus perguntando sobre a vida eterna. Ele conhece os mandamentos.",
-      "Jesus olha para ele e o ama, mas confronta aquilo que ele não consegue deixar.",
-      "O texto fala literalmente de riquezas e do chamado a seguir Jesus.",
-      "A conclusão aponta para a graça: o que é impossível aos homens é possível a Deus."
+      "No caminho para Jerusalém, um homem corre ao encontro de Jesus e pergunta o que precisa fazer para herdar a vida eterna. Ele conhece os mandamentos e acredita ter guardado todos.",
+      "Marcos registra um detalhe decisivo: Jesus olhou para ele e o amou. O convite de Jesus nasce do amor, não da humilhação.",
+      "Jesus identifica o apego que domina aquele coração: as riquezas. Ele o chama a abrir mão do que possui, cuidar dos pobres e segui-lo.",
+      "O homem vai embora triste porque tinha muitos bens. O texto não condena ter sonhos; mostra o perigo de um coração que não consegue responder ao chamado de Jesus.",
+      "Os discípulos ficam admirados e perguntam: então quem pode ser salvo? Jesus conclui que para os seres humanos isso é impossível, mas não para Deus.",
+      "Na história de Sete, a aprovação da Mostra pode influenciar a decisão. Isso é uma aplicação, não o significado original do texto: em Marcos, Jesus trata literalmente de riquezas, discipulado e salvação pela graça."
     ],
     "action": "LEITURA BÍBLICA / PROFESSOR CONDUZ"
   },
@@ -159,9 +167,9 @@
     "img": 1,
     "side": "right",
     "lines": [
-      "CAMINHO X: manter tudo como está e aproveitar a oportunidade.",
-      "CAMINHO Y: expor o conflito publicamente e abandonar a proposta.",
-      "CAMINHO Z: pausar a peça, conversar, corrigir o registro e preparar um plano alternativo.",
+      "CAMINHO X: manter a divulgação como está para não correr o risco de perder a Mostra.",
+      "CAMINHO Y: transformar o conflito em denúncia pública e interromper o projeto.",
+      "CAMINHO Z: pausar a peça, escutar a equipe, pedir a correção e preparar um plano alternativo.",
       "Escolham. E, mais importante, digam quais evidências sustentam sua decisão."
     ],
     "action": "ARGUMENTEM ANTES DE DECIDIR"

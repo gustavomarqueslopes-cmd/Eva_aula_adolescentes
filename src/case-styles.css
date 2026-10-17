@@ -22,3 +22,34 @@
 /* Resultado exige mais espaço vertical que a média das cenas. */
 .mission-end .mission-headline{font-size:clamp(54px,min(6vw,9.3vh),108px)}
 .mission-mini.mission-end .mission-headline{font-size:clamp(26px,4.2vw,56px)}
+
+/* EVA v3 / A história do Projeto Ponte — oito quadros cinematográficos */
+.mission-project{--stageaccent:#91e8da}
+.mission-project .mission-body{max-width:840px;width:60%}
+.mission-project .mission-headline{font-size:clamp(55px,min(5.7vw,8.5vh),103px);line-height:.93;max-width:780px;margin:18px 0 13px}
+.mission-project .mission-deck{font-size:clamp(16px,1.35vw,22px);margin:13px 0 19px;max-width:710px}
+.mission-project .mission-speech{max-width:765px;border-left-width:5px}
+.mission-project .mission-speech p{font-size:clamp(17px,1.45vw,23px);line-height:1.47;font-weight:550}
+.mission-project .stage-context{gap:15px}
+.project-supplement{background:linear-gradient(150deg,#12283cf5,#071625fa);padding:0;border-color:#8bddd855;bottom:11%;right:3.6%;max-height:72vh;width:clamp(260px,26vw,400px);overflow:hidden;box-shadow:0 32px 92px #01090ded}
+.project-note-top{padding:17px 20px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid #80c7c436;background:#133347}
+.project-note-top span{font-size:9px;font-weight:900;letter-spacing:.16em;color:#a9c3d2}
+.project-note-top b{font:900 23px var(--sceneTitle);letter-spacing:.08em;color:#e6fbf7}
+.project-poster{height:clamp(134px,18vh,218px);position:relative;display:grid;place-items:center;overflow:hidden;isolation:isolate;background:radial-gradient(circle at 53% 40%,#31847566,transparent 42%),linear-gradient(135deg,#173f52,#0a2134)}
+.project-poster:after{content:'';position:absolute;inset:0;z-index:-1;background-image:linear-gradient(#b4f8f016 1px,transparent 1px),linear-gradient(90deg,#b4f8f016 1px,transparent 1px);background-size:23px 23px}
+.project-orbit{border:1px solid #8fead96c;border-radius:100%;position:absolute;width:165px;height:165px;transform:rotate(-25deg) scaleY(.52)}
+.project-orbit.orbit-two{width:215px;height:215px;border-color:#a7dcff36;transform:rotate(30deg) scaleY(.55)}
+.project-poster-mark{font:900 clamp(78px,9vw,152px) var(--sceneTitle);line-height:1;color:#c3fdf3;text-shadow:0 0 34px #98f9de49;letter-spacing:-.05em}
+.project-poster-tag{position:absolute;bottom:9px;left:12px;color:#08252b;background:#96e9d8;padding:6px 11px;font-size:9px;letter-spacing:.15em;font-weight:900}
+.project-note-bottom{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px}
+.project-note-bottom>span{color:#92e3de;font-size:9px;letter-spacing:.18em;font-weight:900}
+.project-note-bottom strong{color:#f2f9f9;font:900 24px/1.05 var(--sceneTitle);letter-spacing:.025em;text-transform:uppercase}
+.project-note-bottom p{color:#b8d4de;font-size:12px;line-height:1.38;margin:1px 0 6px}
+.project-steps{display:flex;gap:4px}.project-steps i{height:4px;flex:1;border-radius:10px;background:#29495d}.project-steps i.seen{background:#91e8da}
+.story-autoplay{background:linear-gradient(120deg,#174843,#1a4560);border-color:#69afa4;min-width:170px;color:#d9fffa}
+.story-autoplay.autoplay-on{background:#6adacb;color:#071f26}
+.mission-mini .project-supplement{display:none}
+@media(max-width:1450px){.mission-project .mission-body{width:63%}.mission-project .mission-headline{font-size:clamp(55px,min(5.7vw,8vh),89px)}.project-supplement{width:25%;right:3%;bottom:10%}}
+@media(max-height:780px) and (min-width:861px){.mission-project .mission-headline{font-size:clamp(55px,5.4vw,77px);margin:10px 0 7px}.mission-project .mission-deck{font-size:17px;margin:8px 0 12px}.mission-project .mission-speech{padding:13px 20px}.mission-project .mission-speech p{font-size:clamp(16px,1.35vw,20px);line-height:1.35;margin:11px 0}.mission-project .mission-instruction{margin-top:11px}.project-poster{height:130px}.project-note-top{padding:11px 15px}.project-note-bottom{padding:12px 15px}}
+@media(max-width:900px){.mission-project .mission-body{width:86%}.mission-project .mission-headline{font-size:clamp(52px,7vw,84px)}.project-supplement{display:none}.story-autoplay{min-width:0}}
+@media(max-width:520px){.mission-project .mission-body{width:96%}.mission-project .mission-headline{font-size:clamp(45px,11vw,70px)}.mission-project .mission-speech p{font-size:16px}.story-autoplay{padding:11px 8px;font-size:9px}.director-rail{flex-wrap:wrap}.rail-counter{order:-1;width:100%;text-align:center}}

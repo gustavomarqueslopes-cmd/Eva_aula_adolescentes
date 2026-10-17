@@ -26,6 +26,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Validar motor narrativo
         run: npm run test:engine
+      - name: Validar Caso Sete e a revelação
+        run: npm run test:case
       - name: Compilar EVA para GitHub Pages
         run: npm run build
         env:
