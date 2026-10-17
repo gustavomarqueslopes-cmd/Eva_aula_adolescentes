@@ -3,12 +3,13 @@
     "time": "00–03",
     "label": "ABERTURA",
     "title": "Quem está no <span class=\"accent\">controle?</span>",
-    "lead": "Um prazo real. Uma peça de divulgação. Quatro perspectivas sobre o mesmo problema.",
+    "lead": "13 envelopes já impressos. Uma só decisão: publicar a versão 06 ou suspender e corrigir?",
     "img": 0,
     "kind": "welcome",
     "lines": [
-      "Hoje vocês fazem parte do Conselho Ponte. O Projeto Ponte foi selecionado para uma mostra, mas surgiu uma dúvida sobre o material que será divulgado. Vocês terão de investigar antes de decidir.",
-      "A pergunta é simples: podemos publicar a versão 06 do material ou precisamos interromper, corrigir e assumir o risco de perder a oportunidade? Primeiro, conheçam Sete e seus amigos."
+      "Hoje vocês foram convocados como Conselho Ponte. Uma equipe de jovens criou um projeto para abrir oportunidades a outros adolescentes. O projeto foi selecionado para uma Mostra, mas o material de divulgação pode conter erros.",
+      "Um cartaz e um vídeo estão programados para hoje às 18h. Às 17h termina o prazo para pedir correção. Vocês não investigarão um crime nem procurarão um vilão: decidirão o que fazer com a versão 06 usando documentos e provas.",
+      "Primeiro, conheçam Sete e seus amigos. Depois, as quatro equipes receberão envelopes com registros diferentes. Nenhum grupo terá a história inteira sozinho."
     ],
     "action": "OUÇAM A MISSÃO"
   },
@@ -36,27 +37,31 @@
     "time": "08–13",
     "label": "SUA MISSÃO",
     "title": "Publicar ou <span class=\"accent\">corrigir?</span>",
-    "lead": "O Conselho Ponte precisa entregar uma decisão até as 17h.",
+    "lead": "Vocês são o CONSELHO PONTE. Qual decisão sustentam com os documentos?",
     "img": 0,
     "lines": [
-      "ALERTA. Um vídeo e um cartaz da versão 06 estão agendados para divulgação hoje, às 18h. Talvez o texto, a votação e as permissões não contem a história inteira. A Mostra será amanhã, às 18h.",
-      "Vocês têm uma missão: verificar quem aprovou, o que foi autorizado, de quem é o trabalho e que correção ainda pode ser pedida. São quatro equipes: A Vozes, B Limites, C Verdade e D Caminhos.",
-      "A cada rodada, vocês devem apresentar uma prova, não só uma opinião. No final, as quatro equipes decidirão juntas: manter a versão 06, expor os envolvidos ou pausar e corrigir o material.",
-      "Professor: entregue agora o BRIEFING de cada equipe. Os envelopes da Rodada 1 só devem ser abertos quando a EVA liberar. Vocês não estão procurando um culpado: estão procurando uma decisão responsável."
+      "MISSÃO OFICIAL: descubram se a versão 06 do cartaz e do vídeo do Projeto Ponte pode ser divulgada como está. Se não puder, indiquem o que corrigir antes das 17h e o que fazer se a Mostra não aceitar a alteração.",
+      "O caso acontece em 27/09 às 15h. A publicação digital da versão 06 está prevista para HOJE, 27/09, às 18h. A apresentação pública da Mostra acontece AMANHÃ, 28/09, também às 18h. São eventos diferentes.",
+      "EQUIPE A — VOZES: investiguem se houve aprovação de verdade. EQUIPE B — LIMITES: identifiquem o que foi autorizado e o que precisa de confirmação.",
+      "EQUIPE C — VERDADE: apurem quem contribuiu e como os créditos aparecem no cartaz. EQUIPE D — CAMINHOS: descubram o prazo, as regras para corrigir e os riscos de agir.",
+      "COMO USAR O ENVELOPE: primeiro leiam a página DOSSIÊ; depois respondam a FOLHA DE INVESTIGAÇÃO, usando trechos dos registros como prova. O código é apenas uma conferência: a resposta precisa fazer sentido.",
+      "Cada equipe guarda suas descobertas. Na rodada dois vocês poderão conversar entre si, na terceira vão propor soluções e, no FINAL, o conselho apresentará uma única recomendação.",
+      "Vocês NÃO precisam de outras folhas ou cartões. Só dos envelopes que já estão com o professor e da missão no telão. Primeiro vêm os fatos. Depois, a decisão."
     ],
-    "action": "ENTREGUE OS 4 BRIEFINGS • DEPOIS PREPARE A1–D1",
+    "action": "EXPLIQUE A MISSÃO NA TELA • USE OS 13 ENVELOPES QUE JÁ ESTÃO IMPRESSOS",
     "kind": "mission"
   },
   {
     "time": "13–30",
     "label": "RODADA 01",
     "title": "A investigação <span class=\"accent\">começa.</span>",
-    "lead": "A primeira explicação nem sempre é a história inteira.",
+    "lead": "O que a primeira documentação realmente prova? Não tentem adivinhar a história inteira.",
     "img": 0,
     "lines": [
-      "Rodada um liberada. Abram A1, B1, C1 e D1. Cada equipe investigará uma pergunta do mesmo caso: votação, autorização, créditos ou prazo.",
-      "Leiam com calma. Confiram quem falou, para quem, sobre o quê e em qual momento.",
-      "Quando descobrirem o código do seu envelope, chamem o professor para validar. Guardem as pistas!"
+      "ABRAM AGORA: A1 para Vozes, B1 para Limites, C1 para Verdade e D1 para Caminhos. Cada envelope contém DUAS páginas: uma de registros e outra de perguntas. Não precisam pegar outros papéis.",
+      "Comecem pelo primeiro registro de cada envelope, respondam às perguntas e apontem UM trecho que comprove sua conclusão. O código vem no fim: não é o objetivo principal.",
+      "ATENÇÃO ÀS DATAS: a “chamada aberta” de 27/09 às 18h no A1 refere-se à divulgação digital. A Mostra acontece em 28/09 às 18h. A equipe D investiga o prazo de correção.",
+      "Quando terminarem, digam em uma frase: o que sabemos COM CERTEZA e o que ainda não foi confirmado? Chamem o professor para conferir o código e a evidência."
     ],
     "action": "ABRAM OS ENVELOPES DA RODADA 1"
   },
@@ -67,8 +72,9 @@
     "lead": "Ter uma hipótese não é a mesma coisa que ter uma evidência.",
     "img": 0,
     "lines": [
-      "Qual foi a frase que mais chamou a atenção? Ela prova exatamente o que parece provar?",
-      "Se vocês não têm certeza, digam que não têm certeza. Uma boa investigação também sabe dizer: ainda não sei."
+      "Cada equipe tem apenas uma parte do problema. Vozes: três votos significam autorização pública de todos? Limites: um teste autoriza a versão final?",
+      "Verdade: apresentar o projeto significa tê-lo criado sozinho? Caminhos: pedir correção dentro do prazo garante que ela será aceita?",
+      "Não entreguem respostas de outra equipe. Apenas registrem que fatos estão demonstrados e quais precisam de mais documentação."
     ],
     "action": "CONFIRAM AS EVIDÊNCIAS"
   },
@@ -80,9 +86,9 @@
     "img": 1,
     "side": "right",
     "lines": [
-      "Rodada dois liberada. Abram A2, B2, C2 e D2. Comparem os documentos com os dos outros grupos: não basta descobrir um código, vocês precisam identificar o que torna a versão 06 arriscada.",
-      "Abram A2, B2, C2 e D2. Usem as novas pistas para revisar o que achavam que já sabiam.",
-      "Lembrem: ausência de resposta não significa autorização."
+      "ABRAM AGORA: A2, B2, C2 e D2. Cada equipe continua com seu arquivo anterior e acrescenta novas provas. Nesta rodada VOCÊS PODEM TROCAR INFORMAÇÕES ENTRE OS GRUPOS.",
+      "A equipe A confere o texto completo da enquete. A equipe B descobre a existência de uma mensagem reservada, mas não deve inventar o conteúdo. A equipe C compara a versão 04 com o cartaz 06. A equipe D procura uma saída formal para corrigir o material.",
+      "Respondam às perguntas da folha que vocês já têm, encontrem o código e expliquem como as novas provas mudaram a opinião inicial. Ainda não sabemos toda a história de Lia."
     ],
     "action": "ABRAM A2 • B2 • C2 • D2"
   },
@@ -141,9 +147,9 @@
     "lead": "Enxergar a falha é só metade da missão.",
     "img": 0,
     "lines": [
-      "Rodada três liberada. Abram A3, B3, C3 e D3.",
-      "Cada equipe deve propor uma resposta que respeite as pessoas, a verdade e os prazos.",
-      "Não basta escolher uma frase bonita. Vocês precisam defender uma solução com as provas que têm."
+      "ABRAM AGORA: A3, B3, C3 e D3. O que era dúvida virou responsabilidade. Vocês precisam elaborar uma solução usando as provas.",
+      "A prepara a conversa com o grupo sem atacar pessoas. B define como reconhecer Lia sem expor imagem ou perfil. C reescreve os créditos do cartaz. D desenha o procedimento de correção e um plano alternativo.",
+      "Aproveitem os campos que já existem nas duas folhas de cada envelope. Ao final cada equipe leva UM fato comprovado e UM passo prático para o Protocolo Ponte."
     ],
     "action": "ABRAM A3 • B3 • C3 • D3"
   },
@@ -155,9 +161,9 @@
     "img": 1,
     "side": "right",
     "lines": [
-      "O protocolo FINAL foi liberado. Agora vocês devem responder à pergunta que iniciou o caso: a versão 06 pode ser publicada como está? Justifiquem com fatos de todas as equipes.",
-      "A chave final combina quatro números. Um de cada núcleo, na ordem A, B, C e D.",
-      "Depois da chave, justifiquem qual caminho protege as pessoas, corrige os fatos e permite continuar com responsabilidade."
+      "AGORA, E SÓ AGORA, ABRAM O ENVELOPE FINAL que já está impresso. Juntem quatro equipes ao redor da mesma pergunta: a versão 06 pode ser divulgada do jeito que está?",
+      "A chave final usa quatro números que vocês já encontraram: votos registrados pela equipe A, uso específico autorizado identificado pela B, total de colaboradores identificados pela C e horas disponíveis levantadas pela D.",
+      "Depois de preencher a chave, as equipes devem indicar a opção escolhida no próprio papel e justificar usando os registros. Uma resposta bonita, sem prova, não encerra a investigação."
     ],
     "action": "ABRAM O ENVELOPE FINAL"
   },

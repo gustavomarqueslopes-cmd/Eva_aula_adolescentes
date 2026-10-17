@@ -168,3 +168,13 @@
 .mission-mini .art-case-brief{transform:scale(.77);transform-origin:right bottom;right:1%;bottom:7%;width:32%;padding:8px}.mission-mini .art-case-brief>strong{font-size:16px}.mission-mini .case-alert-tag{font-size:6px}.mission-mini .case-mission-date{padding:5px}.mission-mini .case-mission-date span{font-size:22px}.mission-mini .case-mission-date b,.mission-mini .case-mission-date small{font-size:6px}.mission-mini .case-mission-timeline{gap:3px;margin-top:3px}.mission-mini .case-mission-timeline b,.mission-mini .case-mission-timeline small{font-size:7px}.mission-mini .case-task-four{display:none}
 @media(max-width:1200px){.art-case-brief{width:26%;padding:15px}.art-case-brief>strong{font-size:26px}.case-mission-date span{font-size:33px}.case-mission-timeline small{font-size:8px}.theme-teams .mission-body{width:64%}}
 @media(max-width:860px){.art-case-brief{display:none}.theme-teams .mission-body{width:88%}}
+
+/* Compatibilidade explícita com o kit já impresso. Guia visto só no painel do professor. */
+.printed-rescue{border:1px solid #5bbec488;border-radius:15px;background:linear-gradient(120deg,rgba(12,78,86,.43),rgba(16,34,51,.92));padding:18px 20px;margin:14px 0;color:#eaffff;box-shadow:0 8px 35px rgba(0,0,0,.12)}
+.printed-rescue-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.printed-rescue-head strong{font-size:12px;color:#fff3c2;letter-spacing:.06em}
+.printed-rescue-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.printed-rescue-steps>div{display:flex;flex-direction:column;gap:5px;background:#0a2332c9;border:1px solid #86c9d425;border-radius:9px;padding:12px}
+.printed-rescue-steps b{font-size:10px;letter-spacing:.12em;color:#99ecf2}
+.printed-rescue-steps span{font-size:12px;line-height:1.5;color:#e1ebef}
+@media(max-width:780px){.printed-rescue-steps{grid-template-columns:1fr}.printed-rescue{padding:13px}}
