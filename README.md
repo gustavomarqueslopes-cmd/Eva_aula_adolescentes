@@ -30,3 +30,17 @@ npm run test:case
 npm run test:engine
 npm run build
 ```
+
+## Versão visual V4 (17/10/2026)
+- 14 cenas com ambientação temática própria: abertura, dossiê, evidências, mensagens, protocolo e reflexão.
+- Apresentação do Projeto Ponte em oito quadros com andamento automático opcional (12, 16 ou 22 segundos por quadro) ou manual.
+- Painel de direção com preview da próxima fala e indicador de presença de janela do telão no mesmo computador.
+- Botão **RESET** visível no cabeçalho e em Ferramentas; confirma antes de zerar cena, falas, códigos validados, relógio, decisão, desfecho e escurecimento; o telão recebe a atualização.
+- Controle de estado persistido no `localStorage`, com broadcast entre janelas do **mesmo navegador/origem**; sem BFF ou sincronização multi-dispositivo nesta versão.
+- Atenção: reset é definitivo para a sessão local; a tela do professor não é autenticada em GitHub Pages. Não usar aparelhos de alunos para o painel.
+
+### Conferência antes da aula
+1. Abrir `/#/controle` no notebook e `/#/telao` em outra janela do mesmo navegador.
+2. Avançar pelas 14 cenas, conferir envelope e validação.
+3. Acionar **RESET**, confirmar e verificar a volta simultânea à abertura no telão.
+4. Testar tela cheia (`F`) no projetor, pausa visual (`B`) e o som **não obrigatório**.
