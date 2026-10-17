@@ -1,19 +1,29 @@
-# EVA · Quem Está no Controle? — Caso Sete
+# EVA — Quem Está no Controle? / O Caso Sete
 
-Aplicação da aula imersiva de 100 minutos para adolescentes, com a personagem EVA em imagem e texto, sem IA generativa nem vídeos obrigatórios. Conteúdo alinhado ao kit impresso do Projeto Ponte: quatro equipes, 13 envelopes, 12 validações e Protocolo Final.
+Experiência visual investigativa para uma aula cristã de 100 minutos, com quatro equipes e 13 envelopes. Construída em **React + TypeScript + Vite** e publicada no GitHub Pages. Esta versão substitui o antigo roteiro de seis votações pelo Caso Sete, mantendo o motor e os arquivos históricos no repositório.
 
-## Acesso público
+## Acesso
 
-- Aula: https://gustavomarqueslopes-cmd.github.io/Eva_aula_adolescentes/
-- Controle do professor: `/#/controle`
-- Telão: `/#/telao`
+- `/#/inicio`: apresentação inicial e entrada para o estúdio;
+- `/#/controle`: painel do professor com navegação, cronômetro, validação dos envelopes e desfechos;
+- `/#/telao`: exibição pública em tela cheia, sem gabaritos.
 
-O controle e o telão sincronizam em abas e janelas do **mesmo navegador/origem** via `BroadcastChannel` + `localStorage`, inclusive se atualizados. Esta implantação não sincroniza aparelhos diferentes pela internet. O controle é operacional e não tem autenticação de servidor; mantenha-o na máquina do professor. Para sincronização remota e contas, implantar o BFF Cloudflare Worker + D1 já presente neste repositório, adaptando sua API do motor anterior para os eventos do Caso Sete. Não colocar segredos no frontend.
+## Experiência
 
-## Condução
+14 cenas com falas progressivas em texto; composição visual distinta para investigação, nova evidência, leitura bíblica e desfecho; 12 códigos e chave final validados por hashes; acompanhamento visual das equipes; bloqueio de saltos para a cena de Lia; ocultação do telão pelo professor; memorização do andamento e sincronização entre janelas do **mesmo navegador e computador** pelo BroadcastChannel/localStorage.
 
-A liberação é manual: Rodada 1 no minuto 13; Rodada 2 no minuto 30; mensagem de Lia só após o minuto 43; texto bíblico Marcos 10:17–27; Rodada 3 minuto 63; FINAL minuto 80; desfecho minuto 90. Nenhum dado pessoal é coletado. A validação usa hashes SHA-256, não exibe o gabarito no telão. Não trate o hash como controle de segurança forte.
+**Atenção:** esta versão não oferece autenticação de professor nem votação sincronizada entre celulares. A antiga API Cloudflare Worker/D1 permanece no repositório, mas não é utilizada pelo Caso Sete atual. Quem tiver o URL de controle pode abrir o painel em seu próprio navegador, sem afetar a aula de outra pessoa. Para operação, mantenha controle e telão no mesmo computador/perfil do navegador e faça ensaio antes de projetar.
+
+## Sequência e cuidado pedagógico
+
+Envelopes A1–D1 → A2–D2 → mensagem de Lia (somente aos 43 min) → Marcos 10:17–27 → A3–D3 → envelope FINAL → um dos dois desfechos. O caso e os nomes são ficcionais; não colete dados pessoais nem exponha experiências privadas dos adolescentes.
 
 ## Desenvolvimento
 
-`npm install && npm run dev` para desenvolvimento. `npm run build` compila para Vite. GitHub Actions compila/publica automaticamente no Pages em push para `main`, com `GITHUB_PAGES=true`. O roteiro anterior de seis votações permanece em arquivos do motor como referência de legado, mas não está conectado a esta aula.
+```bash
+npm install
+npm run build
+npm run test:engine
+```
+
+O workflow `.github/workflows/pages.yml` publica o build do Vite no GitHub Pages. Os componentes do Caso Sete estão em `src/main.tsx`, `src/case-styles.css`, `src/case-scenes.json` e as imagens em `public/eva-*.webp`.
