@@ -53,3 +53,10 @@
 @media(max-height:780px) and (min-width:861px){.mission-project .mission-headline{font-size:clamp(55px,5.4vw,77px);margin:10px 0 7px}.mission-project .mission-deck{font-size:17px;margin:8px 0 12px}.mission-project .mission-speech{padding:13px 20px}.mission-project .mission-speech p{font-size:clamp(16px,1.35vw,20px);line-height:1.35;margin:11px 0}.mission-project .mission-instruction{margin-top:11px}.project-poster{height:130px}.project-note-top{padding:11px 15px}.project-note-bottom{padding:12px 15px}}
 @media(max-width:900px){.mission-project .mission-body{width:86%}.mission-project .mission-headline{font-size:clamp(52px,7vw,84px)}.project-supplement{display:none}.story-autoplay{min-width:0}}
 @media(max-width:520px){.mission-project .mission-body{width:96%}.mission-project .mission-headline{font-size:clamp(45px,11vw,70px)}.mission-project .mission-speech p{font-size:16px}.story-autoplay{padding:11px 8px;font-size:9px}.director-rail{flex-wrap:wrap}.rail-counter{order:-1;width:100%;text-align:center}}
+/* No monitor de prévia, a composição é reduzida para escala de miniatura. */
+.mission-mini.mission-project .mission-body{width:78%;padding-left:5.5%}
+.mission-mini.mission-project .mission-headline{font-size:clamp(29px,4.3vw,53px);line-height:.88;margin:7px 0}
+.mission-mini.mission-project .mission-deck{font-size:clamp(8px,.92vw,14px);margin:7px 0}
+.mission-mini.mission-project .mission-speech{padding:8px 10px;border-left-width:2px}
+.mission-mini.mission-project .mission-speech p{font-size:clamp(9px,1.01vw,14px);line-height:1.26;margin:7px 0}
+.mission-mini.mission-project .mission-instruction{font-size:clamp(6px,.7vw,9px);margin-top:7px}
