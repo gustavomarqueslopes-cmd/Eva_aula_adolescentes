@@ -155,3 +155,16 @@
 @media(max-width:900px){.art-opening,.art-investigate,.art-messages,.art-protocol,.art-reflection,.art-files{display:none}.director-next-script{flex-direction:column;gap:8px}.director-next-script>div{border-right:0;border-bottom:1px solid #3c5363;width:100%;padding:0 0 8px}.control-bar-actions{gap:6px}.live-stage-chip{font-size:8px}}
 @media(max-width:520px){.reset-impact{grid-template-columns:1fr 1fr 1fr}.reset-modal{padding:23px}.reset-actions button{width:100%;justify-content:center}.director-next-script{padding:12px}.control-bar-actions{width:100%}}
 @media(prefers-reduced-motion:reduce){.scene-narrative-progress span{transition:none}}
+
+/* O caso e o relógio: tela 03 no telão e no painel. */
+.theme-teams .mission-body{width:58%;max-width:830px}
+.art-case-brief{position:absolute;right:4%;bottom:13%;z-index:2;width:clamp(290px,29vw,435px);padding:22px 25px;background:linear-gradient(152deg,#12364bf0,#091a2bef);border:1px solid #8adad977;border-radius:12px;box-shadow:0 28px 75px #000a;animation:cardEnter .7s ease both;color:#f2f9ff}
+.case-alert-tag{font-size:10px;font-weight:900;letter-spacing:.17em;color:#9be6dc;display:flex;align-items:center;gap:9px}
+.case-alert-tag span{background:#ca675d;color:white;border-radius:50%;width:23px;height:23px;text-align:center;line-height:23px;font-size:15px}
+.art-case-brief>strong{font-family:var(--sceneTitle);font-size:clamp(27px,2.5vw,39px);display:block;margin:14px 0 4px;letter-spacing:.02em}
+.case-mission-date{display:flex;align-items:center;gap:9px;padding:14px 0 12px;border-bottom:1px solid #6a9da85a}.case-mission-date b{color:#b8e7e8;font-size:12px}.case-mission-date span{font-family:var(--sceneTitle);font-weight:900;font-size:47px;line-height:1;color:#f7f6df}.case-mission-date small{background:#c36952;color:#fff;border-radius:3px;padding:5px 6px;font-size:8px;font-weight:900}
+.case-mission-timeline{display:grid;gap:7px;margin-top:14px}.case-mission-timeline>div{display:flex;gap:12px;align-items:baseline}.case-mission-timeline b{font-size:13px;font-weight:900;min-width:52px;color:#92e5e4}.case-mission-timeline small{font-size:9px;font-weight:700;letter-spacing:.08em;color:#b5cbd5}
+.case-task-four{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:19px}.case-task-four span{font-size:9px;letter-spacing:.06em;border:1px solid #527a8b6c;background:#163d5075;border-radius:5px;padding:8px 6px;text-align:center;color:#deeff3;font-weight:900}
+.mission-mini .art-case-brief{transform:scale(.77);transform-origin:right bottom;right:1%;bottom:7%;width:32%;padding:8px}.mission-mini .art-case-brief>strong{font-size:16px}.mission-mini .case-alert-tag{font-size:6px}.mission-mini .case-mission-date{padding:5px}.mission-mini .case-mission-date span{font-size:22px}.mission-mini .case-mission-date b,.mission-mini .case-mission-date small{font-size:6px}.mission-mini .case-mission-timeline{gap:3px;margin-top:3px}.mission-mini .case-mission-timeline b,.mission-mini .case-mission-timeline small{font-size:7px}.mission-mini .case-task-four{display:none}
+@media(max-width:1200px){.art-case-brief{width:26%;padding:15px}.art-case-brief>strong{font-size:26px}.case-mission-date span{font-size:33px}.case-mission-timeline small{font-size:8px}.theme-teams .mission-body{width:64%}}
+@media(max-width:860px){.art-case-brief{display:none}.theme-teams .mission-body{width:88%}}

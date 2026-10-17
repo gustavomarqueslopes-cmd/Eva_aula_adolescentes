@@ -3,12 +3,12 @@
     "time": "00–03",
     "label": "ABERTURA",
     "title": "Quem está no <span class=\"accent\">controle?</span>",
-    "lead": "Um projeto com propósito. Quatro pessoas. Uma decisão sob pressão.",
+    "lead": "Um prazo real. Uma peça de divulgação. Quatro perspectivas sobre o mesmo problema.",
     "img": 0,
     "kind": "welcome",
     "lines": [
-      "Hoje vocês vão entrar numa história fictícia que poderia acontecer com qualquer grupo de amigos. Não há um vilão pronto nem uma resposta óbvia.",
-      "Antes de abrir o primeiro envelope, conheçam as pessoas, o propósito e a oportunidade que colocaram o Projeto Ponte à prova."
+      "Hoje vocês fazem parte do Conselho Ponte. O Projeto Ponte foi selecionado para uma mostra, mas surgiu uma dúvida sobre o material que será divulgado. Vocês terão de investigar antes de decidir.",
+      "A pergunta é simples: podemos publicar a versão 06 do material ou precisamos interromper, corrigir e assumir o risco de perder a oportunidade? Primeiro, conheçam Sete e seus amigos."
     ],
     "action": "OUÇAM A MISSÃO"
   },
@@ -27,23 +27,25 @@
       "Antes de chegar a um palco, a equipe reuniu ideias, trocou mensagens, testou uma apresentação e preparou peças de divulgação. Cada pessoa viu uma parte diferente do trabalho.",
       "Então veio a notícia: o Projeto Ponte foi selecionado para a Mostra Ideias que Transformam. Uma chance real de apresentar a proposta para outras pessoas.",
       "Agora há expectativa, pouco tempo para revisar tudo e muita gente torcendo. Sete quer aproveitar a oportunidade, e os quatro integrantes têm motivos para cuidar do projeto.",
-      "É aqui que a investigação começa. O que parece estar combinado? O que foi realmente confirmado? Vocês receberão registros diferentes. Sua missão é entender antes de julgar."
+      "Hoje é 27 de setembro, 15h. Uma peça de divulgação está programada para as 18h, mas há dúvidas sobre créditos e autorizações. O pedido de correção precisa ser enviado até as 17h. A Mostra pública acontece amanhã, 28 de setembro, às 18h. Vocês têm duas horas para decidir o que recomendar."
     ],
     "action": "APRESENTE A HISTÓRIA • AINDA NÃO ABRA OS ENVELOPES",
     "kind": "project"
   },
   {
     "time": "08–13",
-    "label": "QUATRO NÚCLEOS",
-    "title": "A verdade está <span class=\"accent\">dividida.</span>",
-    "lead": "O mesmo acontecimento visto por pessoas com informações diferentes.",
+    "label": "SUA MISSÃO",
+    "title": "Publicar ou <span class=\"accent\">corrigir?</span>",
+    "lead": "O Conselho Ponte precisa entregar uma decisão até as 17h.",
     "img": 0,
     "lines": [
-      "Equipe A: Vozes. Equipe B: Limites. Equipe C: Verdade. Equipe D: Caminhos.",
-      "Cada núcleo tem seus próprios arquivos. A missão não é acusar ninguém. A missão é reunir evidências.",
-      "Regra número um: evidência primeiro, opinião depois. Esperem o meu sinal para abrir o envelope."
+      "ALERTA. Um vídeo e um cartaz da versão 06 estão agendados para divulgação hoje, às 18h. Talvez o texto, a votação e as permissões não contem a história inteira. A Mostra será amanhã, às 18h.",
+      "Vocês têm uma missão: verificar quem aprovou, o que foi autorizado, de quem é o trabalho e que correção ainda pode ser pedida. São quatro equipes: A Vozes, B Limites, C Verdade e D Caminhos.",
+      "A cada rodada, vocês devem apresentar uma prova, não só uma opinião. No final, as quatro equipes decidirão juntas: manter a versão 06, expor os envolvidos ou pausar e corrigir o material.",
+      "Professor: entregue agora o BRIEFING de cada equipe. Os envelopes da Rodada 1 só devem ser abertos quando a EVA liberar. Vocês não estão procurando um culpado: estão procurando uma decisão responsável."
     ],
-    "action": "PREPAREM A1 • B1 • C1 • D1"
+    "action": "ENTREGUE OS 4 BRIEFINGS • DEPOIS PREPARE A1–D1",
+    "kind": "mission"
   },
   {
     "time": "13–30",
@@ -52,7 +54,7 @@
     "lead": "A primeira explicação nem sempre é a história inteira.",
     "img": 0,
     "lines": [
-      "Rodada um liberada. Abram os envelopes A1, B1, C1 e D1.",
+      "Rodada um liberada. Abram A1, B1, C1 e D1. Cada equipe investigará uma pergunta do mesmo caso: votação, autorização, créditos ou prazo.",
       "Leiam com calma. Confiram quem falou, para quem, sobre o quê e em qual momento.",
       "Quando descobrirem o código do seu envelope, chamem o professor para validar. Guardem as pistas!"
     ],
@@ -78,7 +80,7 @@
     "img": 1,
     "side": "right",
     "lines": [
-      "A EVA encontrou novos arquivos. Agora vocês podem conversar entre os núcleos.",
+      "Rodada dois liberada. Abram A2, B2, C2 e D2. Comparem os documentos com os dos outros grupos: não basta descobrir um código, vocês precisam identificar o que torna a versão 06 arriscada.",
       "Abram A2, B2, C2 e D2. Usem as novas pistas para revisar o que achavam que já sabiam.",
       "Lembrem: ausência de resposta não significa autorização."
     ],
@@ -153,7 +155,7 @@
     "img": 1,
     "side": "right",
     "lines": [
-      "O envelope FINAL está liberado. Agora juntem as provas das quatro equipes.",
+      "O protocolo FINAL foi liberado. Agora vocês devem responder à pergunta que iniciou o caso: a versão 06 pode ser publicada como está? Justifiquem com fatos de todas as equipes.",
       "A chave final combina quatro números. Um de cada núcleo, na ordem A, B, C e D.",
       "Depois da chave, justifiquem qual caminho protege as pessoas, corrige os fatos e permite continuar com responsabilidade."
     ],
@@ -167,12 +169,12 @@
     "img": 1,
     "side": "right",
     "lines": [
-      "CAMINHO X: manter a divulgação como está para não correr o risco de perder a Mostra.",
-      "CAMINHO Y: transformar o conflito em denúncia pública e interromper o projeto.",
-      "CAMINHO Z: pausar a peça, escutar a equipe, pedir a correção e preparar um plano alternativo.",
+      "CAMINHO X: publicar a versão 06 com os erros por medo de perder a Mostra.",
+      "CAMINHO Y: expor quem errou nas redes e encerrar todo o projeto.",
+      "CAMINHO Z: pausar a versão 06, ouvir a equipe, corrigir créditos e autorizações, pedir errata até as 17h e preparar um plano alternativo.",
       "Escolham. E, mais importante, digam quais evidências sustentam sua decisão."
     ],
-    "action": "ARGUMENTEM ANTES DE DECIDIR"
+    "action": "QUATRO PROVAS • UMA RECOMENDAÇÃO"
   },
   {
     "time": "90–95",
